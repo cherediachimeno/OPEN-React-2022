@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menús Restaurante</title>
+</head>
+
+<body>
+
+
+    <h1>Añadir un nuevo menú</h1>
+
+    <input type="text" id="nombreMenu" placeholder="Nombre menú" />
+    <input type="text" id="platoUno" placeholder="Primer plato" />
+    <input type="text" id="platoDos" placeholder="Segundo plato" />
+    <input type="text" id="postre" placeholder="Postre" />
+    <input type="text" id="precio" placeholder="Precio" />
+    <button onclick="enviarDatosPost()">Alta</button>
+
+    <h1>Mostrar menús disponibles</h1>
+
+    <div id='lista'></div>
+
+
+    <h1>Modificar menú</h1>
+    <p>Introduce el nombre del menú a modificar:</p>
+    <input type="text" id="nombrePut" placeholder="Nombre menú" />
+
+    <p>Introduce el cambio en los elementos del menú:</p>
+    <input type="text" id="platoUnoPut" placeholder="Primer plato" />
+    <input type="text" id="platoDosPut" placeholder="Segundo plato" />
+    <input type="text" id="postrePut" placeholder="Postre" />
+    <input type="text" id="precioPut" placeholder="Precio" />
+
+    <button onclick="enviarDatosPut()">Modificar</button>
+
+
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
