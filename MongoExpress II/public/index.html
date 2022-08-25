@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Restaurante</title>
+  </head>
+  <body style="margin-inline: 1cm;  font-family:  Helvetica;">
+
+    <div>
+      <input type="text" placeholder="Nombre del menú" id="numero" />
+      <input type="text" placeholder="Primer plato" id="primero" />
+      <input type="text" placeholder="Segundo plato" id="segundo" />
+      <input type="text" placeholder="Postre" id="postre" />
+      <input type="text" placeholder="Precio" id="precio" />
+      <button onclick="anyadir()">Añadir menú</button>
+      <button onclick="editar()">Editar menú</button>
+    </div>
+<br>
+    <div">
+     
+      <input type="text" placeholder="Nombre del menú" id="numeroBorrar" style="background-color: rgb(215, 215, 215); font-style: italic;" />
+      <button onclick="eliminar()" style="background-color: rgb(242, 169, 169);">Eliminar menú</button>
+
+    </div>
+<hr>
+    <div  id="div1">
+
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
